@@ -1,5 +1,8 @@
 from django.contrib import admin
 
-import logistics
+from .models import City, Client, Product, Supplier
 
-admin.site.register(logistics)
+admin.site.register(City)
+admin.site.register(Client)
+admin.site.register(Product)
+admin.site.register(Supplier)
